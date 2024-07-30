@@ -3,7 +3,7 @@ class Solution
 public:
     bool canConstruct(string ransomNote, string magazine)
     {
-        vector<int> ranmap(26, 0);
+        int ranmap[26] = { };
 
         for (auto it : magazine)
         {
