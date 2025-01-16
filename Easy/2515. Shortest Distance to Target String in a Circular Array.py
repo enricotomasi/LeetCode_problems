@@ -11,6 +11,7 @@ class Solution:
 
         i = startIndex + 1
         if i >= n:
+            i = 0
         
         while words[i] != target:
             if i == startIndex:
