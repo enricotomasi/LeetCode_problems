@@ -2,7 +2,7 @@ import math
 class Solution:
     def maxLength(self, nums: List[int]) -> int:
         n = len(nums)
-        maxi=1
+        ans = 1
 
         for i in range(n):
             for j in range(i, n):
@@ -14,7 +14,7 @@ class Solution:
                 product = math.prod(temp)
                 
                 if product == mcd * mcm:
-                    maxi = max(len(temp), maxi)
+                    ans = max(len(temp), ans)
         
-        return maxi
+        return ans
         
