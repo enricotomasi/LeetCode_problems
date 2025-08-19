@@ -28,7 +28,7 @@ class Solution:
                 ins += 1
             left -= 1
 
-            print(ans)
+            # print(ans)
 
             # print(f"\nleft: {left} right: {right} down: {down} up: {up}")
             # print("left")
